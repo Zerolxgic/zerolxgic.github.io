@@ -1,382 +1,612 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerrius | Personal site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zerrius | Personal site </title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
+  <body>
     <!-- Global Parallax Background -->
     <div class="site-bg">
-        <div class="parallax-bg">
-            <div class="parallax-layer layer-grid"></div>
-            <div class="parallax-layer layer-glow"></div>
-            <div class="parallax-layer layer-dots"></div>
-        </div>
+      <div class="parallax-bg">
+        <div class="parallax-layer layer-grid"></div>
+        <div class="parallax-layer layer-glow"></div>
+        <div class="parallax-layer layer-dots"></div>
+      </div>
     </div>
 
     <!-- Navigation -->
     <header>
-        <nav id="navbar">
-            <div class="nav-logo">Zerrius</div>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#build-log">Build Log</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav id="navbar">
+        <div class="nav-logo">Zerrius</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#build-log">Build Log</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <!-- Banner Background with Overlay -->
-            <div class="hero-banner"></div>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <!-- Banner Background with Overlay -->
+        <div class="hero-banner"></div>
 
-            <div class="hero-content">
-                <!-- Text + Buttons -->
-                <div class="hero-text">
-                    <h1 class="hero-title"><span class="hero-titleText">Zerrius</span></h1>
-                    <p class="hero-tagline">Builder, Content Creator, Terminal Enjoyer and Founder of Not Quite Legendary.</p>
-                    <p class="hero-description">Game dev, modding, video editing, and automation tools.</p>
-                    <div class="hero-buttons">
-                        <a class="socialButton" href="https://github.com/Zerolxgic" target="_blank" rel="noopener noreferrer">
-                            <div class="dots_border"></div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="socialIcon"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-                            <span class="text_button">GitHub</span>
-                        </a>
-                        <a class="socialButton" href="https://www.youtube.com/@NotQuiteLegendary" target="_blank" rel="noopener noreferrer">
-                            <div class="dots_border"></div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="socialIcon"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
-                            <span class="text_button">YouTube</span>
-                        </a>
-                        <a class="socialButton" href="https://www.twitch.tv/not_quite_legendary" target="_blank" rel="noopener noreferrer">
-                            <div class="dots_border"></div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="socialIcon"><path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"/></svg>
-                            <span class="text_button">Twitch</span>
-                        </a>
-                        <a class="socialButton" href="https://x.com/Zerrius_NQL" target="_blank" rel="noopener noreferrer">
-                            <div class="dots_border"></div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="socialIcon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-                            <span class="text_button">X</span>
-                        </a>
-                        <a class="socialButton" href="https://discord.gg/BmuQMmRQmg" target="_blank" rel="noopener noreferrer">
-                            <div class="dots_border"></div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="socialIcon"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></svg>
-                            <span class="text_button">Discord</span>
-                        </a>
-                    </div>
-
-                </div>
+        <div class="hero-content">
+          <!-- Text + Buttons -->
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="hero-titleText">Zerrius</span>
+            </h1>
+            <p class="hero-tagline">
+              Builder, Content Creator, Terminal Enjoyer and Founder of Not
+              Quite Legendary.
+            </p>
+            <p class="hero-description">
+              Game dev, modding, video editing, and automation tools.
+            </p>
+            <div class="hero-buttons">
+              <a
+                class="socialButton"
+                href="https://github.com/Zerolxgic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="dots_border"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="socialIcon"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  />
+                  <path d="M9 18c-4.51 2-5-2-7-2" />
+                </svg>
+                <span class="text_button">GitHub</span>
+              </a>
+              <a
+                class="socialButton"
+                href="https://www.youtube.com/@NotQuiteLegendary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="dots_border"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="socialIcon"
+                >
+                  <path
+                    d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                  />
+                  <path d="m10 15 5-3-5-3z" />
+                </svg>
+                <span class="text_button">YouTube</span>
+              </a>
+              <a
+                class="socialButton"
+                href="https://www.twitch.tv/not_quite_legendary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="dots_border"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="socialIcon"
+                >
+                  <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7" />
+                </svg>
+                <span class="text_button">Twitch</span>
+              </a>
+              <a
+                class="socialButton"
+                href="https://x.com/Zerrius_NQL"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="dots_border"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="socialIcon"
+                >
+                  <path d="M18 6 6 18" />
+                  <path d="m6 6 12 12" />
+                </svg>
+                <span class="text_button">X</span>
+              </a>
+              <a
+                class="socialButton"
+                href="https://discord.gg/BmuQMmRQmg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="dots_border"></div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="socialIcon"
+                >
+                  <path
+                    d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"
+                  />
+                  <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+                </svg>
+                <span class="text_button">Discord</span>
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project One: This Website</h3>
-                            <p><b>Description of project one:</b><br>Building a Personal website.<br><b>What it does and the
-                                    problem it solves:</b><br>A place for me to post about my projects, and life.</p>
-                            <div class="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project One: This Website</h3>
+                <p>
+                  <b>Description of project one:</b><br />Building a Personal
+                  website.<br /><b>What it does and the problem it solves:</b
+                  ><br />A place for me to post about my projects, and life.
+                </p>
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
                 </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project Two: Citadel Down</h3>
-                            <p><b>Description of project two:</b><br>I'm working on a isometric 3D twin stick shooter With roguelit
-                                and extraction elements in Unity6<br><b>What it does and the problem it solves:</b><br> Teaches
-                                me complex systems, skills and cures boredom.</p>
-                            <div class="project-tech">
-                                <span>Unity6</span>
-                                <span>C#</span>
-                                <span>VS Code</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
                 </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project Three: TTS Server</h3>
-                            <p><b>Description of project three:</b><br>AI-powered text-to-speech server for development workflow automation<br><b>What it does and the problem it
-                                    solves:</b><br>Enables AI agents to provide audio feedback during coding sessions.Built with modular architecture for multi-agent development workflows.</p>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>Flask</span>
-                                <span>RealtimeTTS</span>
-                                <span>Websocket</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project Two: Citadel Down</h3>
+                <p>
+                  <b>Description of project two:</b><br />I'm working on a
+                  isometric 3D twin stick shooter With roguelit and extraction
+                  elements in Unity6<br /><b
+                    >What it does and the problem it solves:</b
+                  ><br />
+                  Teaches me complex systems, skills and cures boredom.
+                </p>
+                <div class="project-tech">
+                  <span>Unity6</span>
+                  <span>C#</span>
+                  <span>VS Code</span>
                 </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project Four: Multi-Agent Build System</h3>
-                            <p><b>Description of project four:</b><br>Modular session-based framework for AI-assisted development<br><b>What it does and the problem it
-                                    solves:</b><br>Breaks complex projects into agent-friendly sessions. Optimized for ADHD workflows with built-in handoff protocols and knowledge retention. </p>
-                            <div class="project-tech">
-                                <span>Workflow Desigh</span>
-                                <span>AI Collaboration</span>
-                                <span>Markdown</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
                 </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project Five: ???</h3>
-                            <p><b>Description of project five:</b><br>Coming Soon<br><b>What it does and the problem it
-                                    solves:</b><br>Coming Soon</p>
-                            <div class="project-tech">
-                                <span>???</span>
-                                <span>???</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project Three: TTS Server</h3>
+                <p>
+                  <b>Description of project three:</b><br />AI-powered
+                  text-to-speech server for development workflow automation<br /><b
+                    >What it does and the problem it solves:</b
+                  ><br />Enables AI agents to provide audio feedback during
+                  coding sessions.Built with modular architecture for
+                  multi-agent development workflows.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Flask</span>
+                  <span>RealtimeTTS</span>
+                  <span>Websocket</span>
                 </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Project Six: ???</h3>
-                            <p><b>Description of project six:</b><br>Coming Soon<br><b>What it does and the problem it
-                                    solves:</b><br>Coming Soon</p>
-                            <div class="project-tech">
-                                <span>???</span>
-                                <span>???</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#">Live Demo</a>
-                                <a href="#">GitHub</a>
-                            </div>
-                        </div>
-                    </article>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
                 </div>
-            </div>
-        </section>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project Four: Multi-Agent Build System</h3>
+                <p>
+                  <b>Description of project four:</b><br />Modular session-based
+                  framework for AI-assisted development<br /><b
+                    >What it does and the problem it solves:</b
+                  ><br />Breaks complex projects into agent-friendly sessions.
+                  Optimized for ADHD workflows with built-in handoff protocols
+                  and knowledge retention.
+                </p>
+                <div class="project-tech">
+                  <span>Workflow Desigh</span>
+                  <span>AI Collaboration</span>
+                  <span>Markdown</span>
+                </div>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project Five: ???</h3>
+                <p>
+                  <b>Description of project five:</b><br />Coming Soon<br /><b
+                    >What it does and the problem it solves:</b
+                  ><br />Coming Soon
+                </p>
+                <div class="project-tech">
+                  <span>???</span>
+                  <span>???</span>
+                </div>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Project Six: ???</h3>
+                <p>
+                  <b>Description of project six:</b><br />Coming Soon<br /><b
+                    >What it does and the problem it solves:</b
+                  ><br />Coming Soon
+                </p>
+                <div class="project-tech">
+                  <span>???</span>
+                  <span>???</span>
+                </div>
+                <div class="project-links">
+                  <a href="#">Live Demo</a>
+                  <a href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <!-- Build Log Section -->
-        <section id="build-log">
-            <h2>Build Log</h2>
-            <div class="terminalCard buildlogCard">
-                <div class="terminalTopBar">
-                    <span class="terminalFile">buildLog.sh</span>
-                    <span class="terminalStatus">ready</span>
-                </div>
-                <div class="terminalBody buildlogBody">
-                    <div class="build-log-entries">
-                        <article class="log-entry">
-                            <time datetime="2026-01-23">Jan 23, 2026</time>
-                            <h3>Personal Site Launch</h3>
-                            <p>Launched the initial version of my personal site. Built with HTML, CSS, and vanilla JavaScript. You are looking at it right now. =)</p>
-                        </article>
-                        <article class="log-entry">
-                            <time datetime="2026-01-20">Jan 20, 2026</time>
-                            <h3>Started New Project</h3>
-                            <p>Started prototyping a new Unity game. Right now I’m building the foundation: player controls, combat, and the main gameplay loop before expanding into maps, enemies, and progression.</p>
-                        </article>
-                        <article class="log-entry">
-                            <time datetime="2026-01-15">Jan 15, 2026</time>
-                            <h3>Learning Update</h3>
-                            <p>Set up a MCP server (Model context protocol) connections so my AI assistants can understand my project context directly from my workspace. This improved workflow speed, reduced context drift, and made multi step coding sessions way more consistent.</p>
-                        </article>
-                        <article class="log-entry">
-                            <time datetime="2026-01-00">Jan 00, 2026</time>
-                            <h3>Learning Update Two</h3>
-                            <p>TTS Server Architecture Complete. Designed modular build system for text-to-speech server with REST API, WebSocket streaming, and web UI. Created 17-session workflow optimized for multi-agent development and ADHD-friendly knowledge retention. Implemented security-first approach with rate limiting and input validation from day one. Next: Begin Session 1 - Environment setup and dependency installation.</p>
-                        </article>
-                        <article class="log-entry">
-                            <time datetime="2026-01-00">Jan 00, 2026</time>
-                            <h3>Build Log Placeholder</h3>
-                            <p></p>
-                        </article>
-                        <article class="log-entry">
-                            <time datetime="2026-01-00">Jan 00, 2026</time>
-                            <h3>Build Log Placeholder</h3>
-                            <p>Coming soon.</p>
-                        </article>
-                    </div>
-                </div>
-                <div class="terminalFooterHint">
-                    <span class="terminalPrompt">$</span>
-                    <span class="terminalHint">tail -f buildlog.txt</span>
-                </div>
-            </div>
-        </section>
+      <!-- Build Log Section -->
+      <section id="build-log">
+        <h2>Build Log</h2>
+        <div class="terminalCard buildlogCard">
+          <div class="terminalTopBar">
+            <span class="terminalFile">buildLog.sh</span>
+            <span class="terminalStatus">ready</span>
+          </div>
+          <div class="terminalBody buildlogBody">
+            <div class="build-log-entries">
+              <article class="log-entry">
+                <time datetime="2026-01-23">Jan 23, 2026</time>
+                <h3>Personal Site Launch</h3>
+                <p>
+                  Launched the initial version of my personal site. Built with
+                  HTML, CSS, and vanilla JavaScript. You are looking at it right
+                  now. =)
+                </p>
+              </article>
+              <article class="log-entry">
+                <time datetime="2026-01-20">Jan 20, 2026</time>
+                <h3>Started New Project</h3>
+                <p>
+                  Started prototyping a new Unity game. Right now I’m building
+                  the foundation: player controls, combat, and the main gameplay
+                  loop before expanding into maps, enemies, and progression.
+                </p>
+              </article>
+              <article class="log-entry">
+                <time datetime="2026-01-15">Jan 15, 2026</time>
+                <h3>Learning Update</h3>
+                <p>
+                  Set up a MCP server (Model context protocol) connections so my
+                  AI assistants can understand my project context directly from
+                  my workspace. This improved workflow speed, reduced context
+                  drift, and made multi step coding sessions way more
+                  consistent.
+                </p>
+              </article>
+              <article class="log-entry">
+                <time datetime="2026-01-30">Jan 30, 2026</time>
+                <h3>Learning Update Two</h3>
+                <p>
+                  TTS Server Architecture Complete. Designed modular build
+                  system for text-to-speech server with REST API, WebSocket
+                  streaming, and web UI. Created 17-session workflow optimized
+                  for multi-agent development and ADHD-friendly knowledge
+                  retention. Implemented security-first approach with rate
+                  limiting and input validation from day one. Next: Begin
+                  Session 1 - Environment setup and dependency installation.
+                </p>
+              </article>
+              <article class="log-entry">
+                <time datetime="2026-01-30">Jan 30, 2026</time>
+                <h3>Built My Knowledge Vault</h3>
+                <p>
+                  I set up a local Obsidian knowledge vault as an extension of
+                  my brain: a place to store notes, quick reference cards, and
+                  workflows in a way I can actually find later. Clear folders,
+                  consistent tags, and searchable keywords make it easy to index
+                  information fast, which helps me work with my limitations
+                  instead of fighting them.
+                </p>
+              </article>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Languages</h3>
-                            <ul class="skill-list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>C#</li>
-                                <li>Python</li>
-                                <li>Java</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Tools</h3>
-                            <ul class="skill-list">
-                                <li>Git</li>
-                                <li>VS Code</li>
-                                <li>AI Aagents</li>
-                                <li>Unity6</li>
-                                <li>Godot</li>
-                                <li>Terminal</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="projectTiltWrap">
-                    <article class="project-card projectTiltCard">
-                        <div class="projectTiltContent">
-                            <h3>Dev Focus</h3>
-                            <ul class="skill-list">
-                                <li>Unity6</li>
-                                <li>Docker</li>
-                                <li>AI agents</li>
-                                <li>MCP Servers</li>
-                                <li>Game Design</li>
-                                <li>Web Design</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
+              <article class="log-entry">
+                <time datetime="2026-01-00">Jan 00, 2026</time>
+                <h3>Build Log Placeholder</h3>
+                <p>Coming soon.</p>
+              </article>
             </div>
-        </section>
+          </div>
+          <div class="terminalFooterHint">
+            <span class="terminalPrompt">$</span>
+            <span class="terminalHint">tail -f buildlog.txt</span>
+          </div>
+        </div>
+      </section>
 
-        <!-- About Section -->
-        <section id="about" class="aboutSection">
-            <div class="aboutGlassCard">
-                <canvas class="about-trail" aria-hidden="true"></canvas>
-                <h2>About Me</h2>
-                <div class="about-text">
-                    <p>Hello! I’m Zerrius, a self taught developer and gaming content creator who loves building things, whether it’s in a game engine or in the real world.</p>
-                    <p>I’m driven by creativity, curiosity, and the challenge of learning new skills from the ground up. I enjoy designing virtual worlds, improving systems, and creating experiences that feel smooth, fun, and intentional. I’ve learned a lot through experimentation, and I’m not afraid to rebuild something if it means making it better.</p>
-                    <p>I’ve also been using AI tools for a few years as part of my learning process and workflow. I treat it like a power tool. It helps me move faster, stay organized, and solve problems more efficiently, but I still keep myself in the driver seat. The goal is always to understand what I’m doing, not just copy and paste my way through it.</p>
-                    <p>When I’m not working on a project, you’ll find me spending time with my family, learning something new, or relaxing with a game. This website showcases my journey and the projects I’ve built along the way, with more updates coming as I keep leveling up.</p>
-                </div>
-            </div>
-        </section>
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>C#</li>
+                  <li>Python</li>
+                  <li>Java</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Tools</h3>
+                <ul class="skill-list">
+                  <li>Git</li>
+                  <li>VS Code</li>
+                  <li>AI Aagents</li>
+                  <li>Unity6</li>
+                  <li>Godot</li>
+                  <li>Terminal</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="projectTiltWrap">
+            <article class="project-card projectTiltCard">
+              <div class="projectTiltContent">
+                <h3>Dev Focus</h3>
+                <ul class="skill-list">
+                  <li>Unity6</li>
+                  <li>Docker</li>
+                  <li>AI Agents</li>
+                  <li>MCP Servers</li>
+                  <li>Game Design</li>
+                  <li>Web Design</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-content">
-                <p>Interested in working together or just want to say hello? Feel free to reach out!</p>
-                <div class="contact-terminal terminalCard">
-                    <div class="terminal-bar terminalTopBar">
-                        <span class="terminal-title terminalFile">contact.sh</span>
-                        <span class="terminal-status terminalStatus">ready</span>
-                    </div>
-                    <form class="contact-form terminalBody" action="https://formspree.io/f/xnjpojaj" method="POST">
-                        <div class="form-group">
-                            <label for="name">&gt; name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">&gt; email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">&gt; message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn terminal-btn">run: sendMessage</button>
-                    </form>
-                    <div class="terminal-footer terminalFooterHint">
-                        <span class="terminalPrompt">$</span>
-                        <span class="terminalHint">awaiting input...</span>
-                    </div>
-                </div>
-                <div class="contact-links">
-                    <a href="https://github.com/zerolxgic" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://x.com/Zerrius_NQL" target="_blank" rel="noopener noreferrer">X</a>
-                    <a href="https://www.youtube.com/@NotQuiteLegendary" target="_blank"
-                        rel="noopener noreferrer">YouTube</a>
-                    <a href="https://www.youtube.com/@NotQuiteLegendary" target="_blank"
-                        rel="noopener noreferrer">Twitch</a>
-                    <a href="https://discord.gg/BmuQMmRQmg" target="_blank" rel="noopener noreferrer">Discord</a>
-                </div>
+      <!-- About Section -->
+      <section id="about" class="aboutSection">
+        <div class="aboutGlassCard">
+          <canvas class="about-trail" aria-hidden="true"></canvas>
+          <h2>About Me</h2>
+          <div class="about-text">
+            <p>
+              Hello! I'm Zerrius, a self-taught developer and gaming content
+              creator who loves building things, whether it's inside a game
+              engine or out in the real world.
+            </p>
+
+            <p>
+              I'm driven by creativity, curiosity, and the challenge of learning
+              new skills from the ground up. I have ADHD, so I build systems
+              that work with my brain: knowledge vaults, modular workflows, and
+              AI collaboration tools that help me stay organized, keep context,
+              and learn faster.
+            </p>
+
+            <p>
+              I enjoy designing virtual worlds, improving systems, and crafting
+              experiences that feel smooth, fun, and intentional. I learn by
+              experimenting, and I'm not afraid to rebuild something if it leads
+              to a cleaner result.
+            </p>
+
+            <p>
+              I've used AI in my workflow for years, treating it like a power
+              tool: it helps me move faster and solve problems more efficiently,
+              but I'm always the one driving. The goal is understanding, not
+              shortcuts.
+            </p>
+
+            <p>
+              When I'm not working on a project, I'm spending time with my
+              family, learning something new, or relaxing with a game. This
+              website shares my journey and the projects I've built so far, with
+              more updates as I keep leveling up.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-content">
+          <p>
+            Interested in working together or just want to say hello? Feel free
+            to reach out!
+          </p>
+          <div class="contact-terminal terminalCard">
+            <div class="terminal-bar terminalTopBar">
+              <span class="terminal-title terminalFile">contact.sh</span>
+              <span class="terminal-status terminalStatus">ready</span>
             </div>
-        </section>
+            <form
+              class="contact-form terminalBody"
+              action="https://formspree.io/f/xnjpojaj"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="name">&gt; name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">&gt; email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">&gt; message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn terminal-btn">
+                run: sendMessage
+              </button>
+            </form>
+            <div class="terminal-footer terminalFooterHint">
+              <span class="terminalPrompt">$</span>
+              <span class="terminalHint">awaiting input...</span>
+            </div>
+          </div>
+          <div class="contact-links">
+            <a
+              href="https://github.com/zerolxgic"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://x.com/Zerrius_NQL"
+              target="_blank"
+              rel="noopener noreferrer"
+              >X</a
+            >
+            <a
+              href="https://www.youtube.com/@NotQuiteLegendary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >YouTube</a
+            >
+            <a
+              href="https://www.youtube.com/@NotQuiteLegendary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitch</a
+            >
+            <a
+              href="https://discord.gg/BmuQMmRQmg"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Discord</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Zerrius. All rights reserved.</p>
+      <p>&copy; 2026 Zerrius. All rights reserved.</p>
     </footer>
 
     <!-- Fixed Character (bottom-left, always visible) -->
     <div class="hero-character" id="heroCharacter">
-        <img src="assets/zerriusCharacter.png" alt="Zerrius Character" class="character-img">
+      <img
+        src="assets/zerriusCharacter.png"
+        alt="Zerrius Character"
+        class="character-img"
+      />
     </div>
 
     <!-- Fixed Terminal (bottom-right, always visible) -->
     <div class="hero-terminal">
-        <div class="terminal-header">
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-            <span class="terminal-dot"></span>
-        </div>
-        <div class="terminal-body" id="terminalOutput">
-        </div>
+      <div class="terminal-header">
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+      </div>
+      <div class="terminal-body" id="terminalOutput"></div>
     </div>
 
     <div id="scanOverlay" aria-hidden="true"></div>
 
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
