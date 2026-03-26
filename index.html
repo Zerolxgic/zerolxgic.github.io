@@ -27,8 +27,6 @@
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#build-log">Build Log</a></li>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -48,11 +46,12 @@
               <span class="hero-titleText">Zerrius</span>
             </h1>
             <p class="hero-tagline">
-              Builder, Content Creator, Terminal Enjoyer and Founder of Not
-              Quite Legendary.
+              Self-taught builder working on human-governed AI systems.
             </p>
             <p class="hero-description">
-              Game dev, modding, video editing, and automation tools.
+              Right now I'm building Addison, a personal state machine and
+              local agent system, and using WBTSR to keep the work bounded,
+              inspectable, and restart-safe.
             </p>
             <div class="hero-buttons">
               <a
@@ -325,137 +324,6 @@
         </div>
       </section>
 
-      <!-- Build Log Section -->
-      <section id="build-log">
-        <h2>Build Log</h2>
-        <div class="terminalCard buildlogCard">
-          <div class="terminalTopBar">
-            <span class="terminalFile">buildLog.sh</span>
-            <span class="terminalStatus">ready</span>
-          </div>
-          <div class="terminalBody buildlogBody">
-            <div class="build-log-entries">
-              <article class="log-entry">
-                <time datetime="2026-01-23">Jan 23, 2026</time>
-                <h3>Personal Site Launch</h3>
-                <p>
-                  Launched the initial version of my personal site. Built with
-                  HTML, CSS, and vanilla JavaScript. You are looking at it right
-                  now. =)
-                </p>
-              </article>
-              <article class="log-entry">
-                <time datetime="2026-01-20">Jan 20, 2026</time>
-                <h3>Started New Project</h3>
-                <p>
-                  Started prototyping a new Unity game. Right now I’m building
-                  the foundation: player controls, combat, and the main gameplay
-                  loop before expanding into maps, enemies, and progression.
-                </p>
-              </article>
-              <article class="log-entry">
-                <time datetime="2026-01-15">Jan 15, 2026</time>
-                <h3>Learning Update</h3>
-                <p>
-                  Set up a MCP server (Model context protocol) connections so my
-                  AI assistants can understand my project context directly from
-                  my workspace. This improved workflow speed, reduced context
-                  drift, and made multi step coding sessions way more
-                  consistent.
-                </p>
-              </article>
-              <article class="log-entry">
-                <time datetime="2026-01-30">Jan 30, 2026</time>
-                <h3>Learning Update Two</h3>
-                <p>
-                  TTS Server Architecture Complete. Designed modular build
-                  system for text-to-speech server with REST API, WebSocket
-                  streaming, and web UI. Created 17-session workflow optimized
-                  for multi-agent development and ADHD-friendly knowledge
-                  retention. Implemented security-first approach with rate
-                  limiting and input validation from day one. Next: Begin
-                  Session 1 - Environment setup and dependency installation.
-                </p>
-              </article>
-              <article class="log-entry">
-                <time datetime="2026-01-30">Jan 30, 2026</time>
-                <h3>Built My Knowledge Vault</h3>
-                <p>
-                  I set up a local Obsidian knowledge vault as an extension of
-                  my brain: a place to store notes, quick reference cards, and
-                  workflows in a way I can actually find later. Clear folders,
-                  consistent tags, and searchable keywords make it easy to index
-                  information fast, which helps me work with my limitations
-                  instead of fighting them.
-                </p>
-              </article>
-
-              <article class="log-entry">
-                <time datetime="2026-01-00">Jan 00, 2026</time>
-                <h3>Build Log Placeholder</h3>
-                <p>Coming soon.</p>
-              </article>
-            </div>
-          </div>
-          <div class="terminalFooterHint">
-            <span class="terminalPrompt">$</span>
-            <span class="terminalHint">tail -f buildlog.txt</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills Section -->
-      <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-          <div class="projectTiltWrap">
-            <article class="project-card projectTiltCard">
-              <div class="projectTiltContent">
-                <h3>Languages</h3>
-                <ul class="skill-list">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>C#</li>
-                  <li>Python</li>
-                  <li>Java</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div class="projectTiltWrap">
-            <article class="project-card projectTiltCard">
-              <div class="projectTiltContent">
-                <h3>Tools</h3>
-                <ul class="skill-list">
-                  <li>Git</li>
-                  <li>VS Code</li>
-                  <li>AI Aagents</li>
-                  <li>Unity6</li>
-                  <li>Godot</li>
-                  <li>Terminal</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-          <div class="projectTiltWrap">
-            <article class="project-card projectTiltCard">
-              <div class="projectTiltContent">
-                <h3>Dev Focus</h3>
-                <ul class="skill-list">
-                  <li>Unity6</li>
-                  <li>Docker</li>
-                  <li>AI Agents</li>
-                  <li>MCP Servers</li>
-                  <li>Game Design</li>
-                  <li>Web Design</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
       <!-- About Section -->
       <section id="about" class="aboutSection">
         <div class="aboutGlassCard">
@@ -463,38 +331,33 @@
           <h2>About Me</h2>
           <div class="about-text">
             <p>
-              Hello! I'm Zerrius, a self-taught developer and gaming content
-              creator who loves building things, whether it's inside a game
-              engine or out in the real world.
+              I'm Zerrius, a self-taught builder focused on practical AI
+              systems, workflow design, and tools that help real work hold its
+              shape.
             </p>
 
             <p>
-              I'm driven by creativity, curiosity, and the challenge of learning
-              new skills from the ground up. I have ADHD, so I build systems
-              that work with my brain: knowledge vaults, modular workflows, and
-              AI collaboration tools that help me stay organized, keep context,
-              and learn faster.
+              Right now, most of that work centers on Addison, a personal state
+              machine and local agent system built around deterministic artifact
+              memory, stateless inference, and human-governed control.
             </p>
 
             <p>
-              I enjoy designing virtual worlds, improving systems, and crafting
-              experiences that feel smooth, fun, and intentional. I learn by
-              experimenting, and I'm not afraid to rebuild something if it leads
-              to a cleaner result.
+              WBTSR is the workflow I pulled out of building Addison. It keeps
+              work bounded, separates building from auditing, and treats truth,
+              closeout, and rehydration as part of finishing the job.
             </p>
 
             <p>
-              I've used AI in my workflow for years, treating it like a power
-              tool: it helps me move faster and solve problems more efficiently,
-              but I'm always the one driving. The goal is understanding, not
-              shortcuts.
+              I have ADHD, so I build systems that survive context loss, stay
+              honest about scope, and help me keep moving without pretending
+              automation should run the whole show.
             </p>
 
             <p>
-              When I'm not working on a project, I'm spending time with my
-              family, learning something new, or relaxing with a game. This
-              website shares my journey and the projects I've built so far, with
-              more updates as I keep leveling up.
+              I'm still learning in public and still building this up as I go.
+              This site is a simple place to share the work as it gets clearer,
+              tighter, and more real.
             </p>
           </div>
         </div>
@@ -592,16 +455,6 @@
         alt="Zerrius Character"
         class="character-img"
       />
-    </div>
-
-    <!-- Fixed Terminal (bottom-right, always visible) -->
-    <div class="hero-terminal">
-      <div class="terminal-header">
-        <span class="terminal-dot"></span>
-        <span class="terminal-dot"></span>
-        <span class="terminal-dot"></span>
-      </div>
-      <div class="terminal-body" id="terminalOutput"></div>
     </div>
 
     <div id="scanOverlay" aria-hidden="true"></div>
